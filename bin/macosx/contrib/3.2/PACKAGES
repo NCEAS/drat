@@ -4,3 +4,9 @@ Suggests: git2r, knitr
 License: GPL (>= 2)
 MD5sum: 5d5538cd26ff12889244a9aebcceae48
 
+Package: PKIplus
+Version: 0.0.1.9000
+Depends: R (>= 2.9.0), base64enc
+License: GPL-2 | GPL-3 | file LICENSE
+MD5sum: 7fa0943cd1e015db730b2ccabe28e966
+
