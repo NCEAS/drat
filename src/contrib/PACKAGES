@@ -12,3 +12,12 @@ License: GPL-2 | GPL-3 | file LICENSE
 MD5sum: 169ea9e15949bd87fc2ee203b71fce1f
 NeedsCompilation: yes
 
+Package: redland
+Version: 1.0.17
+Depends: R (>= 3.1.1), methods
+Imports: roxygen2
+Suggests: knitr, testthat
+License: Apache License 2.0
+MD5sum: dad82cf09b8af60cb3b9c1732c972c41
+NeedsCompilation: yes
+
