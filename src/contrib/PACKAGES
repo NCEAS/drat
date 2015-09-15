@@ -1,3 +1,12 @@
+Package: datapackage
+Version: 0.9.0.9002
+Depends: R (>= 3.1.1)
+Imports: digest, methods, redland, XML, hash, uuid
+Suggests: testthat, knitr
+License: Apache License (== 2.0)
+MD5sum: a037d826a31dfe6daccb896caad46aac
+NeedsCompilation: no
+
 Package: drat
 Version: 0.0.4
 Suggests: git2r, knitr
