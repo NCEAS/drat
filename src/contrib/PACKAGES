@@ -1,10 +1,19 @@
+Package: dataone
+Version: 1.1.0.9003
+Depends: R (>= 3.1.0), methods
+Imports: XML (>= 3.95-0.1), httr (>= 1.0.0), stringr, datapackage, plyr, parsedate
+Suggests: knitr, testthat, digest, PKIplus
+License: Apache License 2.0
+MD5sum: b6e70de3a14e52d9177b147563e85f32
+NeedsCompilation: no
+
 Package: datapackage
-Version: 0.9.0.9002
+Version: 0.9.0.9003
 Depends: R (>= 3.1.1)
 Imports: digest, methods, redland, XML, hash, uuid
 Suggests: testthat, knitr
 License: Apache License (== 2.0)
-MD5sum: a037d826a31dfe6daccb896caad46aac
+MD5sum: ba6b8d3d0bf7104257aacf20ea1fb3d3
 NeedsCompilation: no
 
 Package: drat
@@ -15,18 +24,28 @@ MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
 NeedsCompilation: no
 
 Package: PKIplus
-Version: 0.0.1.9000
+Version: 0.1.1.9001
 Depends: R (>= 2.9.0), base64enc
 License: GPL-2 | GPL-3 | file LICENSE
-MD5sum: 169ea9e15949bd87fc2ee203b71fce1f
+MD5sum: f112f41e5e499a7aae9d5d776e953266
 NeedsCompilation: yes
 
+Package: recordr
+Version: 0.9.0.9002
+Depends: R (>= 3.1.0), dataone (>= 1.0.0)
+Imports: uuid (>= 0.1-1), datapackage (>= 0.9.0.9002), digest, XML, EML, dataone (>= 1.1.0.9002),
+           RSQLite
+Suggests: knitr, testthat
+License: Apache License 2.0
+MD5sum: 36471842d6aef9ed5540e116fa3d06c6
+NeedsCompilation: no
+
 Package: redland
-Version: 1.0.17
+Version: 1.0.17-1
 Depends: R (>= 3.1.1), methods
 Imports: roxygen2
 Suggests: knitr, testthat
 License: Apache License 2.0
-MD5sum: dad82cf09b8af60cb3b9c1732c972c41
+MD5sum: e37e0ff86f0b7a8b90f9ede33022dade
 NeedsCompilation: yes
 
