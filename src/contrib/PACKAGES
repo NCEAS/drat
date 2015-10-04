@@ -1,10 +1,10 @@
 Package: dataone
-Version: 1.1.0.9003
+Version: 1.1.0.9004
 Depends: R (>= 3.1.0), methods
-Imports: XML (>= 3.95-0.1), httr (>= 1.0.0), stringr, datapackage, plyr, parsedate
+Imports: XML (>= 3.95-0.1), curl, httr (>= 1.0.0), stringr, datapackage, plyr, parsedate, uuid
 Suggests: knitr, testthat, digest, PKIplus
 License: Apache License 2.0
-MD5sum: b6e70de3a14e52d9177b147563e85f32
+MD5sum: 0f5f88cccc49c6d4a64e1cd52b593af5
 NeedsCompilation: no
 
 Package: datapackage
@@ -33,8 +33,7 @@ NeedsCompilation: yes
 Package: recordr
 Version: 0.9.0.9002
 Depends: R (>= 3.1.0), dataone (>= 1.0.0)
-Imports: uuid (>= 0.1-1), datapackage (>= 0.9.0.9002), digest, XML, EML, dataone (>= 1.1.0.9002),
-           RSQLite
+Imports: uuid (>= 0.1-1), datapackage (>= 0.9.0.9002), digest, XML, EML, dataone (>= 1.1.0.9002), RSQLite
 Suggests: knitr, testthat
 License: Apache License 2.0
 MD5sum: 36471842d6aef9ed5540e116fa3d06c6
