@@ -1,8 +1,16 @@
+Package: codyn
+Version: 0.9.0.9000
+Depends: R (>= 3.1.0)
+Imports: assertthat, stats
+Suggests: testthat, knitr, ggplot2, reshape2, devtools, dplyr
+License: Apache License (== 2.0)
+MD5sum: 05e14e3499d6f6ee8bd088827ae06ec7
+NeedsCompilation: no
+
 Package: dataone
 Version: 1.1.0.9004
 Depends: R (>= 3.1.0), methods
-Imports: XML (>= 3.95-0.1), curl, httr (>= 1.0.0), stringr, datapackage, plyr,
-         parsedate, uuid
+Imports: XML (>= 3.95-0.1), curl, httr (>= 1.0.0), stringr, datapackage, plyr, parsedate, uuid
 Suggests: knitr, testthat, digest, PKIplus
 License: Apache License 2.0
 MD5sum: 0f5f88cccc49c6d4a64e1cd52b593af5
@@ -34,8 +42,7 @@ NeedsCompilation: yes
 Package: recordr
 Version: 0.9.0.9004
 Depends: R (>= 3.1.0), dataone (>= 1.0.0)
-Imports: uuid (>= 0.1-1), datapackage (>= 0.9.0.9002), digest, XML, EML, dataone (>=
-         1.1.0.9002), RSQLite
+Imports: uuid (>= 0.1-1), datapackage (>= 0.9.0.9002), digest, XML, EML, dataone (>= 1.1.0.9002), RSQLite
 Suggests: knitr, testthat
 License: Apache License 2.0
 MD5sum: 76ccc684bb4aea3301c9e93bc090c31c
