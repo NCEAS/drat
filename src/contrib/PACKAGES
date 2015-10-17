@@ -1,10 +1,10 @@
 Package: codyn
-Version: 0.9.0.9000
-Depends: R (>= 3.1.0)
+Version: 1.0.0
+Depends: R (>= 3.2.0)
 Imports: assertthat, stats
 Suggests: testthat, knitr, ggplot2, reshape2, devtools, dplyr
 License: Apache License (== 2.0)
-MD5sum: 05e14e3499d6f6ee8bd088827ae06ec7
+MD5sum: 6c4e247c8d301be8e9a1cb4e7bb42cb5
 NeedsCompilation: no
 
 Package: dataone
