@@ -4,7 +4,7 @@ Depends: R (>= 3.2.0)
 Imports: assertthat, stats
 Suggests: testthat, knitr, ggplot2, reshape2, devtools, dplyr
 License: Apache License (== 2.0)
-MD5sum: b70f00d712497c576917859aaf70d5f5
+MD5sum: 77ad78ad864060c7fb6b08bdcc16f3be
 NeedsCompilation: no
 
 Package: dataone
