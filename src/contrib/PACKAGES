@@ -8,21 +8,22 @@ MD5sum: 77ad78ad864060c7fb6b08bdcc16f3be
 NeedsCompilation: no
 
 Package: dataone
-Version: 1.1.0.9005
-Depends: R (>= 3.1.0), methods
-Imports: XML (>= 3.95-0.1), curl, httr (>= 1.0.0), stringr, datapackage (>= 0.9.0.9003), plyr, parsedate, uuid
+Version: 1.1.0.9007
+Depends: R (>= 3.1.0),
+Imports: XML (>= 3.95-0.1), hash, httr (>= 1.0.0), methods, stringr, datapackage (>= 0.9.0.9005), plyr,
+            parsedate, uuid
 Suggests: knitr, testthat, digest, PKIplus (>= 0.0.1.9001)
 License: Apache License 2.0
-MD5sum: c5eccc2221e8fcdac55fe3168f703af5
+MD5sum: 5db017144a1db98af175cae60b2814ff
 NeedsCompilation: no
 
 Package: datapackage
-Version: 0.9.0.9003
+Version: 0.9.0.9005
 Depends: R (>= 3.1.1)
-Imports: digest, methods, redland, XML, hash, uuid
+Imports: digest, methods, redland (>= 1.0.17-2), XML, hash, uuid
 Suggests: testthat, knitr
 License: Apache License (== 2.0)
-MD5sum: ba6b8d3d0bf7104257aacf20ea1fb3d3
+MD5sum: 0e6b495439475ea86c6ee8fc9f8f9383
 NeedsCompilation: no
 
 Package: drat

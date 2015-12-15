@@ -1,8 +1,8 @@
 Package: dataone
 Version: 1.1.0.9006
 Depends: R (>= 3.1.0), methods
-Imports: XML (>= 3.95-0.1), curl, httr (>= 1.0.0), stringr, datapackage
-        (>= 0.9.0.9003), plyr, parsedate, uuid
+Imports: XML (>= 3.95-0.1), curl, httr (>= 1.0.0), stringr, datapackage (>= 0.9.0.9003), plyr, parsedate,
+            uuid
 Suggests: knitr, testthat, digest, PKIplus (>= 0.0.1.9001)
 License: Apache License 2.0
 MD5sum: 691b67a123e77d55dd07b2e28c78021f
@@ -24,17 +24,16 @@ MD5sum: e4b2ee6e95d06dc2ccf068b291aa6ba2
 Package: recordr
 Version: 0.9.0.9006
 Depends: R (>= 3.1.0), dataone (>= 1.0.0)
-Imports: uuid (>= 0.1-1), datapackage (>= 0.9.0.9002), digest, XML,
-        EML, dataone (>= 1.1.0.9002), RSQLite
+Imports: uuid (>= 0.1-1), datapackage (>= 0.9.0.9002), digest, XML, EML, dataone (>= 1.1.0.9002), RSQLite
 Suggests: knitr, testthat
 License: Apache License 2.0
 MD5sum: fe9e29588bee7b25c27dfedc6f1c9264
 
 Package: redland
-Version: 1.0.17-1
+Version: 1.0.17-2
 Depends: R (>= 3.1.1), methods
 Imports: roxygen2
 Suggests: knitr, testthat
 License: Apache License 2.0
-MD5sum: b1c297bffa64a84e69dc6c99c4fd0bef
+MD5sum: cce67c1a97e5e293914562847f5a7432
 
