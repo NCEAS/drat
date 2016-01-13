@@ -4,11 +4,3 @@ Depends: R (>= 2.9.0), base64enc
 License: GPL-2 | GPL-3 | file LICENSE
 MD5sum: e4b2ee6e95d06dc2ccf068b291aa6ba2
 
-Package: redland
-Version: 1.0.17-2
-Depends: R (>= 3.1.1), methods
-Imports: roxygen2
-Suggests: knitr, testthat
-License: Apache License 2.0
-MD5sum: cce67c1a97e5e293914562847f5a7432
-
