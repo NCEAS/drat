@@ -17,12 +17,12 @@ MD5sum: 0ca8c7e1d3c83ed80a6b867d468eb42a
 NeedsCompilation: no
 
 Package: datapackage
-Version: 0.9.0.9005
+Version: 0.9.0.9006
 Depends: R (>= 3.1.1)
-Imports: digest, methods, redland (>= 1.0.17-2), XML, hash, uuid
+Imports: digest, methods, redland, XML, hash, uuid
 Suggests: testthat, knitr
 License: Apache License (== 2.0)
-MD5sum: 0e6b495439475ea86c6ee8fc9f8f9383
+MD5sum: 95c6cddb120224c2aa9353ef283c2c64
 NeedsCompilation: no
 
 Package: drat
@@ -49,11 +49,11 @@ MD5sum: 76ccc684bb4aea3301c9e93bc090c31c
 NeedsCompilation: no
 
 Package: redland
-Version: 1.0.17-2
+Version: 1.0.17-1
 Depends: R (>= 3.1.1), methods
 Imports: roxygen2
 Suggests: knitr, testthat
 License: Apache License 2.0
-MD5sum: c96c4ace6f9ae825b9c5462918ae289f
+MD5sum: e37e0ff86f0b7a8b90f9ede33022dade
 NeedsCompilation: yes
 
