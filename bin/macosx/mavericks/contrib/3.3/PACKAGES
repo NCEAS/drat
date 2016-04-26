@@ -1,0 +1,7 @@
+Package: PKIplus
+Version: 0.0.2
+Depends: R (>= 2.9.0), base64enc
+Suggests: testthat
+License: GPL-2 | GPL-3 | file LICENSE
+MD5sum: 7fe3e4a252e755b98eac7b39a68d3284
+
