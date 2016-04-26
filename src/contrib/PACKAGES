@@ -11,7 +11,7 @@ Package: dataone
 Version: 1.1.0.9010
 Depends: R (>= 3.1.1),
 Imports: XML (>= 3.95-0.1), hash, httr, methods, stringr, datapack, plyr, parsedate, uuid,
-           base64enc, jsonlite
+          base64enc, jsonlite
 Suggests: knitr, testthat, digest, PKIplus
 License: Apache License 2.0
 MD5sum: a7408206e61fc94b1f51f2a968172471
@@ -34,10 +34,11 @@ MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
 NeedsCompilation: no
 
 Package: PKIplus
-Version: 0.1.1.9001
+Version: 0.0.2
 Depends: R (>= 2.9.0), base64enc
+Suggests: testthat
 License: GPL-2 | GPL-3 | file LICENSE
-MD5sum: f112f41e5e499a7aae9d5d776e953266
+MD5sum: 2531e861292439fee64db60e6c6b7274
 NeedsCompilation: yes
 
 Package: recordr
