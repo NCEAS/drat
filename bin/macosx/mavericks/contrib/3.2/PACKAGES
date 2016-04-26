@@ -1,8 +1,9 @@
 Package: PKIplus
-Version: 0.1.1.9001
+Version: 0.0.2
 Depends: R (>= 2.9.0), base64enc
+Suggests: testthat
 License: GPL-2 | GPL-3 | file LICENSE
-MD5sum: e4b2ee6e95d06dc2ccf068b291aa6ba2
+MD5sum: 404cff90d8742f9cd57166fdd9a9c76b
 
 Package: redland
 Version: 1.0.17-7
