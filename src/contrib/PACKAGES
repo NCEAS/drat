@@ -1,17 +1,17 @@
 Package: codyn
-Version: 1.0.1
+Version: 1.1.0
 Depends: R (>= 3.2.0)
-Imports: assertthat, stats
-Suggests: testthat, knitr, ggplot2, reshape2, devtools, dplyr
+Imports: assertthat, stats, permute
+Suggests: testthat, knitr, ggplot2, reshape2, devtools, dplyr, rmarkdown
 License: Apache License (== 2.0)
-MD5sum: 8ff5810d377a54ca224cc107aaff8f8e
+MD5sum: dc1696e8297fe23c7c6231bb4ab08a15
 NeedsCompilation: no
 
 Package: dataone
 Version: 1.1.0.9010
 Depends: R (>= 3.1.1),
-Imports: XML (>= 3.95-0.1), hash, httr, methods, stringr, datapack, plyr, parsedate, uuid,
-          base64enc, jsonlite
+Imports: XML (>= 3.95-0.1), hash, httr, methods, stringr, datapack, plyr, parsedate,
+         uuid, base64enc, jsonlite
 Suggests: knitr, testthat, digest, PKIplus
 License: Apache License 2.0
 MD5sum: a7408206e61fc94b1f51f2a968172471
