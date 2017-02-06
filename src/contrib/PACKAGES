@@ -51,12 +51,12 @@ MD5sum: 2531e861292439fee64db60e6c6b7274
 NeedsCompilation: yes
 
 Package: recordr
-Version: 0.9.0.9006
+Version: 1.0.3.9000
 Depends: R (>= 3.1.1), methods
-Imports: uuid, datapack, digest, XML, RSQLite, EML
-Suggests: dataone, ggplot2, knitr, png, testthat
+Imports: uuid, datapack, digest, XML, RSQLite, rappdirs, hash, EML, DiagrammeR
+Suggests: dataone, ggplot2, knitr, png, testthat, rmarkdown
 License: Apache License 2.0
-MD5sum: d93fda326a1e654debda6ec206871011
+MD5sum: 9769a49e82b9dadc996ca4ea6d0c690c
 NeedsCompilation: no
 
 Package: redland
