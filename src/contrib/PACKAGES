@@ -10,11 +10,20 @@ NeedsCompilation: no
 Package: dataone
 Version: 1.1.0.9010
 Depends: R (>= 3.1.1),
-Imports: XML (>= 3.95-0.1), hash, httr, methods, stringr, datapack, plyr, parsedate,
-         uuid, base64enc, jsonlite
+Imports: XML (>= 3.95-0.1), hash, httr, methods, stringr, datapack, plyr, parsedate, uuid,
+          base64enc, jsonlite
 Suggests: knitr, testthat, digest, PKIplus
 License: Apache License 2.0
 MD5sum: a7408206e61fc94b1f51f2a968172471
+NeedsCompilation: no
+
+Package: datapack
+Version: 1.1.0
+Depends: R (>= 3.1.1)
+Imports: digest, methods, redland, XML, hash, uuid
+Suggests: testthat, knitr
+License: Apache License (== 2.0)
+MD5sum: fe6376b950a049a290cc186d5997da47
 NeedsCompilation: no
 
 Package: datapackage
